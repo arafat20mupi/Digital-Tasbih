@@ -25,7 +25,7 @@ const alhamdulilahDis = document.getElementById('alhamdulilahDisplay')
 const alhamdulilahIncrementBtn = document.getElementById('alhamdulilahIncrement')
 const alhamdulilahDecrimentBtn = document.getElementById('alhamdulilahDecriment')
 
-let alhamdulilahValue =0;
+let alhamdulilahValue = 0;
 alhamdulilahIncrementBtn.addEventListener('click' , function(){
     if (alhamdulilahValue ===33) {
         return alert ('Subhanallah, 1 Tasbih complete')
